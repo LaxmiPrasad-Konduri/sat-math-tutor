@@ -1,4 +1,9 @@
 pandas
 pytest
+ruff
+mypy
+# Add other development-only dependencies (black, isort, pre-commit) here
+pandas
+pytest
 # Add development-only dependencies here (linters, formatters, type checkers)
 # e.g. ruff, black, mypy

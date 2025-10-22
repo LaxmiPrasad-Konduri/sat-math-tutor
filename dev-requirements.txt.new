@@ -1,0 +1,5 @@
+pandas
+pytest
+ruff
+mypy
+# Add other development-only dependencies (black, isort, pre-commit) here

@@ -1,5 +1,13 @@
 # 🧮 SAT Math Tutor
 
+## Badges
+
+These badges will be added when CI runs on the repository (placeholders until the workflow completes):
+
+- CI: ![CI](https://img.shields.io/badge/ci-pending-lightgrey)
+- Tests: ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+- License: ![License](https://img.shields.io/badge/license-MIT-blue)
+
 ## 🧩 Overview
 SAT Math Tutor is a Python program that generates random SAT-style math problems, quizzes the user, and saves results to a CSV file.
 

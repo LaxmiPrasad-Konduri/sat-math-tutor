@@ -5,7 +5,6 @@
 import random
 import argparse
 import pandas as pd
-import math
 import time
 from datetime import datetime
 

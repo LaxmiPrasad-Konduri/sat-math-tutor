@@ -1,5 +1,3 @@
-import re
-import math
 from sat_math_tutor import generate_arithmetic, generate_algebra, is_correct
 
 
