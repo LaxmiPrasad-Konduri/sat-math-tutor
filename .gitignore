@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+.venv/
+.venv-pf/
+__pycache__/
+*.pyc
+ sat_math_results.csv
+
