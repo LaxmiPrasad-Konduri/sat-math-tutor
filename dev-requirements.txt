@@ -1,0 +1,4 @@
+pandas
+pytest
+# Add development-only dependencies here (linters, formatters, type checkers)
+# e.g. ruff, black, mypy

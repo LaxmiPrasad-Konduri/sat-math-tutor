@@ -46,6 +46,15 @@ The script tries to locate the Microsoft Store Python and create `.venv-msstore`
 
 If the script cannot find the Store Python automatically, open PowerShell and run `where.exe python` to see which `python.exe` is being used, then run the full path with `-m venv .venv-msstore`.
 
+
+## Editor setup (VS Code / Pylance)
+If you use VS Code, point the editor to the project virtual environment so language servers (Pylance) and linters can resolve imports like `pandas`:
+
+1. Open Command Palette (Ctrl+Shift+P) -> `Python: Select Interpreter`.
+2. Choose the interpreter that points to `.venv-msstore\Scripts\python.exe` (or `.venv-pf` / `.venv` if you prefer).
+3. Reload the window (Developer: Reload Window) if diagnostics don't update immediately.
+
+After that the "Import could not be resolved" warning for `pandas` should disappear.
 ## Run the tutor
 
 With the venv activated run:
